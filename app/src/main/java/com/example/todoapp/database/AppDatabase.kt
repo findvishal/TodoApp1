@@ -1,9 +1,11 @@
-package com.example.todoapp
+package com.example.todoapp.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.todoapp.model.TodoModel
+import com.example.todoapp.ui.DB_NAME
 
 
 @Database(entities = [TodoModel::class], version = 1)

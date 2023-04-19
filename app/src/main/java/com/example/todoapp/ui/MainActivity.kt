@@ -1,4 +1,4 @@
-package com.example.todoapp
+package com.example.todoapp.ui
 
 import android.content.Intent
 import android.graphics.*
@@ -12,6 +12,12 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.todoapp.R
+import com.example.todoapp.TaskActivity
+import com.example.todoapp.adapter.TodoAdapter
+import com.example.todoapp.database.AppDatabase
+import com.example.todoapp.model.TodoModel
+import com.example.todoapp.ui.HistoryActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

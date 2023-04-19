@@ -8,7 +8,8 @@ import android.widget.ArrayAdapter
 import android.widget.DatePicker
 import android.widget.TimePicker
 import androidx.appcompat.app.AppCompatActivity
-import androidx.room.Room
+import com.example.todoapp.database.AppDatabase
+import com.example.todoapp.model.TodoModel
 import kotlinx.android.synthetic.main.activity_task.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
